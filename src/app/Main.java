@@ -73,7 +73,7 @@ public class Main {
 
         // VALIDACIÓN: RUT CON FORMATO INVÁLIDO
         try {
-            Rut rutInvalido = new Rut("1-81818181");
+            Rut rutInvalido = new Rut("181818181");
         } catch (IllegalArgumentException e) {
             System.out.println("[ERROR AL INGRESAR EL RUT] " + e.getMessage());
         }
